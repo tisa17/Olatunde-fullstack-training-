@@ -36,12 +36,19 @@ where Color IN ('black','blue')
 
 Select*
 From Production.Product
-where Name Like 's%'Select TOP 6 Name, ListPriceFrom Production.Productwhere Name Like 's%'order by Nameselect TOP 5 Name, ListPrice
+where Name Like 's%'
+
+Select TOP 6 *
+From Production.Product
+where Name Like 's%'
+order by Name
+
+select TOP 5 Name, ListPrice
 from Production.Product
 where Name like '[AS]%'
 order by Name
 
-SELECT *
+SELECT Name, ListPrice
 FROM Production.Product
 WHERE Name LIKE 'SPO[^K]%'
 ORDER BY Name
