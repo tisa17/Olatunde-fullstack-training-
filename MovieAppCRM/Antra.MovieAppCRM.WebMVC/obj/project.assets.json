@@ -1,0 +1,111 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Antra.MovieAppCRM.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Antra.MovieAppCRM.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Antra.MovieAppCRM.Core.dll": {}
+        }
+      },
+      "Antra.MovieAppCRM.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Antra.MovieAppCRM.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Antra.MovieAppCRM.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Antra.MovieAppCRM.Infrastructure.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Antra.MovieAppCRM.Core/1.0.0": {
+      "type": "project",
+      "path": "../Antra.MovieAppCRM.Core/Antra.MovieAppCRM.Core.csproj",
+      "msbuildProject": "../Antra.MovieAppCRM.Core/Antra.MovieAppCRM.Core.csproj"
+    },
+    "Antra.MovieAppCRM.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../Antra.MovieAppCRM.Infrastructure/Antra.MovieAppCRM.Infrastructure.csproj",
+      "msbuildProject": "../Antra.MovieAppCRM.Infrastructure/Antra.MovieAppCRM.Infrastructure.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Antra.MovieAppCRM.Infrastructure >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\tsola\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\tsola\\OneDrive\\Documents\\GitHub\\Olatunde-Antra-fullstack-training-\\MovieAppCRM\\Antra.MovieAppCRM.WebMVC\\Antra.MovieAppCRM.WebMVC.csproj",
+      "projectName": "Antra.MovieAppCRM.WebMVC",
+      "projectPath": "C:\\Users\\tsola\\OneDrive\\Documents\\GitHub\\Olatunde-Antra-fullstack-training-\\MovieAppCRM\\Antra.MovieAppCRM.WebMVC\\Antra.MovieAppCRM.WebMVC.csproj",
+      "packagesPath": "C:\\Users\\tsola\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\tsola\\OneDrive\\Documents\\GitHub\\Olatunde-Antra-fullstack-training-\\MovieAppCRM\\Antra.MovieAppCRM.WebMVC\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\tsola\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\tsola\\OneDrive\\Documents\\GitHub\\Olatunde-Antra-fullstack-training-\\MovieAppCRM\\Antra.MovieAppCRM.Infrastructure\\Antra.MovieAppCRM.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\tsola\\OneDrive\\Documents\\GitHub\\Olatunde-Antra-fullstack-training-\\MovieAppCRM\\Antra.MovieAppCRM.Infrastructure\\Antra.MovieAppCRM.Infrastructure.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
