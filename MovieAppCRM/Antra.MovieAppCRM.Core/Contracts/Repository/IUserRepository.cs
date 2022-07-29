@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Antra.MovieAppCRM.Core.Contracts.Repository
 {
-    internal class IUserRepository
+    public class IUserRepository
     {
     }
 }

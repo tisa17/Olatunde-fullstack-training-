@@ -5,6 +5,10 @@ VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Antra.MovieAppCRM.WebMVC", "Antra.MovieAppCRM.WebMVC\Antra.MovieAppCRM.WebMVC.csproj", "{633A61AA-F5B3-4398-8BB9-B59430271525}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Antra.MovieAppCRM.Core", "Antra.MovieAppCRM.Core\Antra.MovieAppCRM.Core.csproj", "{24A1E8C6-1559-4766-962B-9E80707B2E1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Antra.MovieAppCRM.Infrastructure", "Antra.MovieAppCRM.Infrastructure\Antra.MovieAppCRM.Infrastructure.csproj", "{B85F0F25-F17A-4ADE-9483-D3E3EEC71FA6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{633A61AA-F5B3-4398-8BB9-B59430271525}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{633A61AA-F5B3-4398-8BB9-B59430271525}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{633A61AA-F5B3-4398-8BB9-B59430271525}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24A1E8C6-1559-4766-962B-9E80707B2E1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24A1E8C6-1559-4766-962B-9E80707B2E1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24A1E8C6-1559-4766-962B-9E80707B2E1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24A1E8C6-1559-4766-962B-9E80707B2E1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B85F0F25-F17A-4ADE-9483-D3E3EEC71FA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B85F0F25-F17A-4ADE-9483-D3E3EEC71FA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B85F0F25-F17A-4ADE-9483-D3E3EEC71FA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B85F0F25-F17A-4ADE-9483-D3E3EEC71FA6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Antra.MovieAppCRM.Core.Contracts.Service
 {
-    internal interface IUserService
+    public interface IUserService
     {
     }
 }
